@@ -1,0 +1,33 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?7b41c99c5612de5608465559ca587244") format("truetype"),
+url("./flaticon_mycollection.woff?7b41c99c5612de5608465559ca587244") format("woff"),
+url("./flaticon_mycollection.woff2?7b41c99c5612de5608465559ca587244") format("woff2"),
+url("./flaticon_mycollection.eot?7b41c99c5612de5608465559ca587244#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?7b41c99c5612de5608465559ca587244#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "product": "\f101",
+    "order": "\f102",
+);
+
+.flaticon-product:before {
+    content: map-get($flaticon_mycollection-map, "product");
+}
+.flaticon-order:before {
+    content: map-get($flaticon_mycollection-map, "order");
+}
