@@ -5654,7 +5654,7 @@
 .project-section-two .carousel-column .owl-dots .owl-dot:hover,
 .project-section-two .carousel-column .owl-dots .owl-dot.active{
 	width:40px;
-	background-color:var(--color-twentyeight);
+	background-color:var(--main-color);
 }
 
 /*** 
