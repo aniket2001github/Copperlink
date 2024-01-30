@@ -1083,7 +1083,7 @@ img{
 	font-size: var(--font-16);
 	text-transform: capitalize;
 	display:inline-block;
-	background-color:var(--color-twentyseven);
+	background-color:var(--main-color);
 	font-family:var(--font-family-BeVietnam);
 }
 
