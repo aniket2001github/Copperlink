@@ -6727,9 +6727,6 @@
 	padding-right:var(--padding-right-30);
 }
 
-.counter-section.style-two{
-	padding-top:var(--padding-top-100);
-}
 
 .counter-section.style-two .counter-column .inner-column .icon-box{
 	background-color:var(--main-color);
